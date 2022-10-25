@@ -1,6 +1,5 @@
 library ieee;
  use ieee.std_logic_1164.all;
- use std.env.stop;
  entity tff_sync_reset is
  port ( 
 	clk :in std_logic; -- Clock input
